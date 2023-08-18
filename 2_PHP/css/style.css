@@ -1,0 +1,9 @@
+*{
+    font-family: "Comic Sans MS";
+}
+
+body{
+    background-color: rgba(0,0,0,0.1);
+    width: 80%;
+    margin: 75px auto;
+}
