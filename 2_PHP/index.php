@@ -36,7 +36,7 @@
 
     <p>El servidor que más visito es <a target="_blank" href="https://google.es"><?=SERVE?></a></p>
     <p>El usuario que más utilizo es <?=$usuario?></p>
-    <p>También se pueden realizar operaciones matemáticas usando: <?=$cantidad+4+1.6?></p>
+    <p>También se pueden realizar operaciones matemáticas sando: <?=$cantidad+4+1.6?></p>
 
 </body>
 </html>
