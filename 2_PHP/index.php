@@ -19,8 +19,60 @@
     echo "10 kilos de ${fruta}s si serian caras<br/>";
     //accede a las letras como un array
     echo $fruta[2].'<br/>';
-    $abece='ABCDEFGHIJKLMNÑOPQRSTU';
-    echo $abece[9];
+    $abece='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.'<br/>';
+    echo $abece[14].'<br/>';
+    //resultados en booleano segun valor
+    if($usuario=='sofía'){
+        echo "El usuario es verdadero";
+    }else{
+        echo 'El resultado es falso'.'<br/>'.'<br/>';
+    }
+
+    $numero=0;
+    $usuario="Ana";
+    if($usuario=="Sofía"){
+        echo '<br>',"El nombre Ana, es verdadero";
+    }else{
+        echo '<br>',"El nombre no es Ana, es falso";
+    }
+    if($numero==0){
+        echo '<br>'.'false'.'<br>';
+    }else{
+        echo '<br>'.'true';
+    }
+    $otroValor=(int) 5;
+    // matriz
+    $matrizDeNumero[]=array();
+    for($i=0;$i<10;$i++){
+        $matrizDeNumero[$i]=$i*10;
+    }
+    print_r($matrizDeNumero);
+    $matrizEjemplo[]=array();
+    for($i=0;$i<30;$i++){
+        if($i<15){
+            $matrizEjemplo[$i]="a";
+        }else{
+            $matrizEjemplo[$i]="b";
+        }
+    }
+    print_r($matrizEjemplo);
+
+
+    $mabecedario[]=array();
+    for($i=0;$i<26;$i++){
+        $mabecedario[$i]=$abece[$i];
+    }
+    print_r($mabecedario);
+
+    echo '<br/>'.'<br/>';
+
+    for($i=0;$i<11;$i++){
+    for ($x=0;$x<11;$x++){
+        echo "$i"."*"."$x"."=".$i*$x."<br/>";
+    }
+    echo '<br/>';
+}
+
 
 ?>
 
