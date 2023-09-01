@@ -133,17 +133,10 @@
 
 
     echo "<h2>Tabla Precios</h2>";
-    $comunidades = array("Tomates" => '1,99', "Manzanas" => '2.03', "AGUACATE" => '1,12 EUR.',"ARÁNDANOS" => '2,89 EUR.
-', "CALABAZA CACAHUETE	" => '2,03 EUR.
-', "FRESAS	" => '3,50 EUR.
-', "HIGOS" => '2,32 EUR.
-', "JENGIBRE" => '1,30 EUR.
-', "Kiwis verdes	" => '2,87 EUR.
-', "MANZANA GOLDEN	" => '0,32 EUR.
-');
-    echo "<table style='border: 2px solid black ; width: 90%; margin: auto; text-align: center'><thead><tr><th style='border: 2px solid black'>Producto</th><th>Precio</th></tr></thead>";
-    foreach ($comunidades as $com => $comunidadesItem) {
-        echo "<tbody><tr><td>$com</td><td>$comunidadesItem</td></tr></tbody>";
+    $adidas = array("1ª Equipación Real Madrid Authentic" => '150€',"1ª Equipación Real Madrid" => '100€', "2ªEquipación Real Madrid" => '100€', "3ª Equipación Real Madrid" => '100€',"Camiseta Calentamiento Real Madrid" => '70€',  "Camiseta entrenamiento Real Madrid Tiro" => '55€', "Camiseta Portero 1ª Equipación Real Madrid" => '100€', "Camiseta 1ª Equipación España 22" => '100€', "Camiseta 1ª Equipación España 22 Authentic" => '150€', "Camiseta 2ª Equipación Selección Femenina España 22" => '90€');
+    echo "<table ><th>Producto</th><th>Precio</th></tr></thead>";
+    foreach ($adidas as $com => $adidasItem) {
+        echo "<tbody><tr><td>$com</td><td>$adidasItem</td></tr></tbody>";
     }
     echo "</table>";
 
@@ -164,6 +157,23 @@
 <head>
     <meta charset="UTF-8">
     <title>4_PHP</title>
+    <style>
+        table, th, tr, td{
+            color: #ffffff;
+            font-size: large;
+            background-color: rgba(64, 64, 64, 0.51);
+            border-collapse: collapse;
+            text-align: center;
+            width: 1000px;
+            margin-top: 100px;
+            border: 2px solid #2b2b2b;
+            padding: 20px;
+        }
+        table{
+            width:60%;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
 
