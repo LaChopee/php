@@ -12,10 +12,10 @@
             <a href="tienda.php">¡Rebajas de hasta el 65%!</a>
         </p>
         <div class="header">
-            <a href="index.php" class="logo">CompanyLogo</a>
+            <a href="index.php" class="logo">BookVerse</a>
             <div class="header-right">
                 <a href="tienda.php">Tienda</a>
-                <a href="nosotros.php">Nosotros</a>
+                <a href="blog.php">Blog</a>
                 <a href="contacto.php">Contacto</a>
             </div>
         </div>
