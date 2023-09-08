@@ -9,7 +9,6 @@ $email=$_GET['email'];
         <h2>¡GRACIAS <i><?=$nombre?></i> por contactar con nosotros!</h2>
         <p>En breve recibirá un email a <b><?=$email?></b></p>
     </div>
-
 <?php
 $destinatario = $email;
 $asunto = "Bienvenido a nuestra Web";
@@ -19,7 +18,7 @@ $cuerpo = '
    <title>Bienvenido a nuestra Web</title>
    <style>
    h1{
-   color: #756c59;
+   color: darkred;
    }
    p{
    color: dimgray;
@@ -57,10 +56,8 @@ $headers .= "Return-path: irina@ceatformación.com\r\n";
 
 mail($destinatario,$asunto,$cuerpo,$headers)
 ?>
-
 <?php
 include 'footer.php';
 ?>
-
 </body>
 </html>
