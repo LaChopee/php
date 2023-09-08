@@ -1,0 +1,193 @@
+* {
+    color: #2b2b2b;
+    font-family: "Artifakt Element Light";
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%
+}
+
+/*--COLORES A USAR--*/
+/*
+#6a5c46
+#e5d7cb
+#221706
+#362616
+#756c59
+*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------HEADER------------------------*/
+/*----ANUNCIOS-----*/
+.barraAnuncio{
+    width: 100%;
+    background-color: #221706;
+    padding: 5px;
+    text-align: center;
+}
+.barraAnuncio a{
+    color: #e5d7cb;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*----MENU----*/
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    width: 95%;
+    margin: 20px auto;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+    float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+/*------------------------FIN HEADER---------------------------*/
+
+
+
+
+/*---------------------INDEX------------------------*/
+
+
+
+
+
+
+
+
+/*---------------------TIENDA-------------------*/
+
+
+
+
+
+
+/*--------------------NOSOTROS------------------*/
+
+
+
+
+
+/*----------------------CONTACTO--------------------------*/
+/*----FORMULARIO------*/
+input{
+    border: none;
+    border-bottom: 2px solid #2b2b2b;
+    border-radius: 5px;
+}
+
+.boton{
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+}
+
+    .boton:hover {
+        background-color: #f7fafa;
+    }
+
+    .boton:focus {
+        border-color: #008296;
+        box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+        outline: 0;
+    }
+
+    .p-boton{
+        margin: 10px 69px;
+    }
+
+.formulario, .registro{
+    width: 75%;
+    margin: 50px auto;
+}
+
+
+
+
+
+/*--------------------------FOOTER---------------------*/
+.pies{
+    width: 100%;
+    background-color: #221706;
+    height: 75px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.pies p{
+    color: #e5d7cb;
+
+}

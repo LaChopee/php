@@ -114,3 +114,30 @@ input{
     color: #e5d7cb;
 
 }
+
+
+/*----BANNER_IMAGENES----*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 25px auto;
+    border: 10px solid #221706;
+}
+
+/* Hide the images by default */
+.fotos {
+    display: none;
+    background-color: #221706;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
