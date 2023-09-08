@@ -12,9 +12,9 @@ $mns="";
     }
 
     if ($mns!=""){
-        header("Location:http://localhost:63342/PHP/php_all/5_PHP/contacto.php?mns=$mns");
+        header("Location:http://localhost:63342/PHP/php_all/libreria/contacto.php?mns=$mns");
     }else{
-        header("Location:http://localhost:63342/PHP/php_all/5_PHP/registro.php?nombre=$nombre&email=$email");
+        header("Location:http://localhost:63342/PHP/php_all/libreria/registro.php?nombre=$nombre&email=$email");
     }
 // funcion que permite enviar /llamr de una página a otra y enviar datos
 
