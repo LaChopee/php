@@ -1,0 +1,109 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #2b2b2b;
+ }
+ 
+ body{
+     width: 80%;
+     margin: auto;
+     background-color: #f5f5f5;
+ }
+ 
+ .tit{
+     font-variant: small-caps;
+     text-align: center;
+ }
+ 
+ /*menu*/
+ .men3{
+     list-style: none;
+     background-color: #4b4b4b;
+     margin: 0;
+     padding: 0;
+     position: sticky;
+     overflow: hidden;
+     font-variant: small-caps;
+ }
+ 
+ .men3 li a{
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px ;
+     text-decoration: none;
+ }
+ 
+ .men3 li{
+     float: left;
+     display: block;
+ }
+ 
+ .men3 li a:hover{
+     background-color: #2b2b2b;
+ }
+ 
+ .active{
+     background-color: rgb(105, 45, 45);
+ }
+ 
+ .men3 li a.active{
+     background-color: rgb(105, 45, 45);
+     color: #f2f2f2;
+ }
+ 
+
+ .container{
+    width: 70%;
+    margin: 25px auto;
+}
+
+ .card{
+    width: 500px;
+    height: 250px;
+    border: 2px solid #4b4b4b;
+    box-shadow: #4b4b4b 0 2px 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+ }
+
+ .card p{
+    padding: 0 45px;
+ }
+
+
+ /*
+CSS Media Queries => Responsive desing
+media quires, es mediante el cual podemos hacer excepciones pora que unos determinados estilos de diseño sólo se apliquen si se cumplen una serie de condiciones, generalmente relacionadas con el dispositivo mediante el cual se está viendo la página.
+
+Las reglas media quires (también denominadas MQ a veces) son un tipo de reglas CSS que permiten crear un bloque de código que solo se procesará en los dispositivos que cumplan los criterios especificados como condicion.
+
+La sintaxis de la regla @media es la siguiente
+
+Regla
+@media (<condicion>)=>Si se cumple la condición, se aplican los estilos de su interior.
+
+Ejemplos.
+@media (**){
+    .container{
+        backgroundColor: red;
+    }
+}
+@media not (**){
+    .container{
+        backgroundColor: green;
+    }
+}
+ */
+
+ @media(width<=800px){
+    .container{
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+    }
+ }
+ 

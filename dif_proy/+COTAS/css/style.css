@@ -1,0 +1,98 @@
+*{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #302F34;
+}
+
+body{
+    margin: auto;
+    width: 90%;
+}
+
+.header{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.menuP{
+    background-color: #4b4b4b;
+    border-radius: 20px;
+}
+
+.menu{
+    background-color: #4b4b4b;
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.menu li{
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #4b4b4b;
+}
+
+.menuA{
+    color: white;
+    background-color: #4b4b4b;
+    text-decoration: none;
+}
+
+.volv{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #4b4b4b;
+    border: 1px solid #4B4B4B;
+    margin: 10px 0;
+    color: white;
+}
+
+.fles{
+    display: flex;
+}
+
+.bordertx{
+    border-left: 5px solid #4B4B4B;
+    margin-left: 20px;
+}
+
+.tit1{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.txtQS{
+    margin: 100px;
+}
+
+table{
+    margin:auto;
+}
+
+th, td {
+    color: white;
+    text-align: center;
+    background-color: #4B4B4B;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.servicios{
+    margin: auto;
+    width: 22%;
+    padding-left: 65px;
+}
+
+.contacten{
+    margin: auto;
+    width: 45%;
+}
+
+.bot-form{
+    background-color: rgb(212, 212, 212);
+    border: none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.png">
+            </a>
+        </div>
+        <div class="menu">
+            <ul class="">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="nacional.html">Envío Nacional</a></li>
+                <li><a href="internacional.html">Envío Internacional</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="formEnvio">
+            <div class="container">
+                <h2 style="margin:25px">¿Cuánto me va a costar mi envío?</h2>
+                <div class="destino">
+                    <label for="destino">Indiquie el destino del envío</label>
+                    <br>
+                    <select id="destino">
+                        <option class="destinoFinal" value="">--Seleccione una opcción--</option>
+                        <option class="destinoFinal" value="2">Tu misma Localidad</option>
+                        <option class="destinoFinal" value="5">tu misma Provincia</option>
+                        <option class="destinoFinal" value="8">Tu misma Comunidad Autónoma</option>
+                        <option class="destinoFinal" value="16">Baleares-Canarias</option>
+                        <option class="destinoFinal" value="18">Ceuta o Melilla</option>
+                        <option class="destinoFinal" value="12">Resto de España</option>
+                        <option class="destinoFinal" value="20">Europa</option>
+                        <option class="destinoFinal" value="25">Resto del Mundo</option>
+                    </select>
+                </div>
+                <div class="peso">
+                    <label for="peso">Indiquie el peso apróximado</label>
+                    <br>
+                    <select id="peso">
+                        <option class="precioFinal" value="">--Seleccione una opcción--</option>
+                        <option class="precioFinal" value="2.88">Hasta 0.5 Kg</option>
+                        <option class="precioFinal" value="4.75">Hasta 5 Kg</option>
+                        <option class="precioFinal" value="6.49">Hasta 10 Kg</option>
+                        <option class="precioFinal" value="9.39">Hasta 20 Kg</option>
+                    </select>
+                </div>
+                <button type="button" onclick="calcPrecio()">Calcular</button>
+                <p class="mnsError"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

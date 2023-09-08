@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNI</title>
+    <link rel="shortcut icon" href="../../img/favicon-grande.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+<body>
+    
+  <header>
+    <div class="topnav">
+      <a class="active" href="../../index.php"><img alt="" src="../../img/favicon-claro.webp" class="imgen"></a>
+      <a href="">CV</a>
+      <a href="../../html/index.php">HTML</a>
+      <a href="../index.php">JavaScript</a>
+      <a href="../../actividades/index.php">Actividades</a>
+      <div class="topnav-right">
+        <a href="../../dif_proy/EXAMEN/index.html" target="_blank">TestModulo</a>
+        <a href="../../dif_proy/ZOO/index.html" target="_blank">ZOO</a>
+        <a href="../../dif_proy/DISER/index.html" target="_blank">DISER</a>
+        <a href="../../dif_proy/+COTAS/index.html" target="_blank">+COTAS</a>
+      </div>
+    </div>
+  </header>
+    
+    <section class="seccion">
+        <div id="imgDNI">
+            <img src="img/dni.jpg" alt="DNIejm">
+        </div>
+    
+        <!--    Leer los datos de un DNI    -->
+        <div class="texto-centrado">
+        <input type="text" id="dni" placeholder="Eascribe tu DNI(sin letra)" maxlength="8" minlength="8" required>
+        <button value="calcular" id="calcular" onclick="calcularLdni()">Mostrar Letra</button>
+    
+        <!--  Mensaje de error  -->
+        <p id="mnsError"></p>
+    
+        <!--   Resultado del calculo    -->
+        <h3 id="resultado"></h3>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal/minimal.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+</html>

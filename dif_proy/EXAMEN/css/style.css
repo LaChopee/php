@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  text-align: center;
+  color: #FF4742;
+}
+
+.logo img{
+  padding-left: 20px;
+}
+
+.header{
+  background-color: #4b4b4b;
+  display: flex;
+  align-items: center; 
+  justify-content: center;    
+  height: 100px;
+  flex-direction: row;
+  align-content: center;
+}
+
+.menu ul, .headerSup ul{
+  list-style-type: none;
+  text-align: right;
+}
+
+.menu li{
+  color:white;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.menu li a{
+  text-decoration: none;
+  font-variant: small-caps;
+  color: white;
+}
+
+
+/* CSS */
+button{
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.envio{
+  width: 100%;
+  position: relative;
+}
+
+.formEnvio{
+  margin: auto;
+  height: 500px;
+  background-position: center;
+  background-image: url(../img/enviar-paqueteria.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+}
+
+.container{
+  margin: 30px auto;
+  width: 60%;
+  text-align: center;
+  background-color: #4b4b4b7a;
+  color: white;
+  padding: 25px;
+  height: auto;
+}
+
+.destino form input, select, textarea {
+  width: 60%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.mnsError{
+  background-color: black;
+  margin: 20px auto;
+  padding: 20px;
+  color: white;
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+}

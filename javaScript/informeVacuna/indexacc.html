@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunación</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styleacc.css">
+</head>
+<body>
+    
+    <header>
+        <h1 class="tit">Vacunación</h1>
+        <ul class="men3">
+            <li><a href="../../index.html" class="active">Índice</a></li>
+            <li><a href="../../actividades/index.php">Actividades</a></li>
+            <li><a href="../../HTML/index.html">HTML</a></li>
+            <li><a href="../../+COTAS/index.html" target="_blank">+COTAS</a></li>
+            <li><a href="../index.php">JavaScript</a></li>
+        </ul>
+    </header>
+    <button><a href="index.html">Accesibilidad</a></button>
+
+    <!--
+        Realizamos individualmente, una aplicación ACCESIBLE Y USABLE  en HTML – CSS – JAVASCRIPT que permita al usuario, según datos ingresados, conocer las vacunas infantiles que deberían tener según el calendario oficial del Sistema de Salud de CLM.
+    -->
+
+    <section class="antonia">
+        <h1>Indique la edad de su hijo/a</h1>
+        <div>
+            <select id="opcion" id="electrodomestico">
+                <option></option>
+                <option value="prnatal">Prenatal</option>
+                <option value="dosMeses">2 Meses</option>
+                <option value="cuatroMeses">4 Meses</option>
+                <option value="onceMeses">11 Meses</option>
+                <option value="doceMeses">12 Meses</option>
+                <option value="quinceMeses">15 Meses</option>
+                <option value="cuatro">4 Años</option>
+                <option value="seis">6 Años</option>
+                <option value="doce">12 Años</option>
+                <option value="catorce">14 Años</option>
+            </select>
+            <button class="button-30" onclick="ShowSelected()">Ver vacunas</button>
+            <p id="resultado"></p>
+    
+        </div>
+    
+    </section>
+
+</body>
+</html>

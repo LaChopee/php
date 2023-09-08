@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eficiencia Energética</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="fechaHora">
+            <p id="fecha"></p>
+            <p id="hora"></p>
+        </div>
+        <img src="img/logo.png" alt="logo-diser" class="imgMenu">
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Quienes Somos</a></li>
+            <li><a href="#autoconsM">Autoconsumo</a></li>
+            <li><a href="#pryec">Proyectos</a></li>
+            <li><a href="eficiencia.html">Eficiencia energética</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <img src="img/baner.jpg" alt="banner" class="headerBaner">
+    </header>
+
+    <div class="textEfi">
+        <h2 style="font-variant: small-caps;">Eficiencia energética</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo minima quam, officia accusamus iusto facilis cumque, dicta totam perspiciatis tempore? Exercitationem officia qui quod! Explicabo, est numquam. Voluptas Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium laborum sint temporibus, nemo maiores iusto voluptatum dolorem voluptates provident eaque, ea ipsa reiciendis facere sapiente iste, porro saepe quia beatae!</p>
+    </div>
+
+    <hr>
+
+    <div class="textEfi">
+        <h2>El consumo de tus electrodomesticos y tu factira de luz</h2>
+        <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sit animi, quibusdam nesciunt dolore earum eligendi, similique placeat, cupiditate tempore corporis ratione soluta. Numquam perspiciatis recusandae excepturi, repudiandae in labore?</p>
+    </div>
+    <div class="dividido">
+        <div>
+            <p><img src="img/consumo-potencia-electrodomesticos.png" alt="consumo" class="tabla"></p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae incidunt iste deleniti quisquam aperiam? Sequi mollitia, consequuntur totam voluptatibus nam laudantium error assumenda iure, autem et, magni temporibus quaerat reiciendis.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae incidunt iste deleniti quisquam aperiam? Sequi mollitia, consequuntur totam voluptatibus nam laudantium error assumenda iure, autem et, magni temporibus quaerat reiciendis.</p>
+        </div>
+        
+    </div>
+    <div>
+        <select name="opcion" id="electrodomestico">
+            <option>Elige tu electrodomestico</option>
+            <option value="Nevera" id="opcion"></option>Nevera</option>
+            <option value="Vitrocerámica" id="opcion">Vitrocerámica</option>
+            <option value="Microondas" id="opcion">Microondas</option>
+            <option value="Horno" id="opcion">Horno</option>
+            <option value="Lavavajillas" id="opcion">Lavavajillas</option>
+            <option value="Lavadora" id="opcion">Lavadora</option>
+            <option value="Televisión" id="opcion">Televisión</option>
+            <option value="Aire Acondicionado" id="opcion">Aire Acondicionado</option>
+            <option value="Calefacción" id="opcion">Calefacción</option>
+        </select>
+        <button class="button-30" onclick="ShowSelected()">Calcular</button>
+        <p id="resultado"></p>
+
+    </div>
+
+    <hr>
+
+    <footer>
+        <h2>PONTE EN CONTACTO CON NOSOTROS</h2>
+        <div class="footerDiv">
+            <div class="contcList">
+            <ul class="contcListMen">
+                <li><span class="material-symbols-outlined">location_on</span>  Dirección: Calle Manuel Villena, 15</li>
+                <li><span class="material-symbols-outlined">add_location_alt</span>  C.P. 13700. Tomelloso. Ciudad Real</li>
+                <li><span class="material-symbols-outlined">phone_in_talk</span>  Teléfono: 926 555 555</li>
+                <li><span class="material-symbols-outlined">mail</span>  Email: info@disersa.es</li>
+            </ul>
+            </div>
+            <div class="contactForm">
+                <form method="get">
+                    <input type="text"placeholder="nombre" id="nombre"><br>
+                    <input type="tel" placeholder="Teléfono"><br>
+                    <input type="email" placeholder="e-mail"><br>
+                    <textarea name="mensaje" id="mensaje" cols="10" rows="4"></textarea>
+                    <button class="button-30" role="button" >Enviar</button>
+
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/elegir.js"></script>
+</body>
+</html>

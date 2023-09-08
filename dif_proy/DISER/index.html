@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diser</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="fechaHora">
+            <p id="fecha"></p>
+            <p id="hora"></p>
+        </div>
+        <img src="img/logo.png" alt="logo-diser" class="imgMenu">
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quiSom.html">Quienes Somos</a></li>
+            <li><a href="#autoconsM">Autoconsumo</a></li>
+            <li><a href="#pryec">Proyectos</a></li>
+            <li><a href="eficiencia.html">Eficiencia energética</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <img src="img/baner.jpg" alt="banner" class="headerBaner">
+    </header>
+
+    <section class="autocons" id="autoconsM">
+        <h2>AUTOCONSUMO VOLTAICO PARA EMPRESAS</h2>
+        <p>Descubre cómo puedes <b>ahorrar hasta un 60% en la factura de tu empresa</b> con las <b>soluciones de autoconsumo industrial</b> de DISER</p>
+    </section>
+    
+    <hr>
+
+    <section class="servicios" id="servic10">
+        <h2>NUSTROS SERVICIOS</h2>
+        <div class="serviciosA">
+        <div>
+            <img src="img/Eficiencia.png" alt="">
+            <h3>EFICIENCIA ENERGÉTICA</h3>
+            <p>Desarrollo de proyectos integrales de eficiencia energética para todos los sectores</p>
+        </div>
+        <div>
+            <img src="img/Autoconsumo.png" alt="">
+            <h3>AUTOCONSUMO</h3>
+            <p>Instalaciones fotovoltaicas en continua innovación en tecnología, producto y desarroyo</p>
+        </div>
+        <div>
+            <img src="img/Parques_Fotovoltaicos.png" alt="">
+            <h3>PARQUES FOTOVOLTAICOS</h3>
+            <p>Dedicados a la promoción, desarrollo, construcción y Operación y Mantenimiento de grandes plantas en distintos países</p>
+        </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="proy">
+        <h2 id="pryec">PROYECTOS</h2>
+        <div class="proyDIV">
+            <div>
+                <img src="img/proyecto1.jpg" alt="proyecto1" class="imagn">
+                <p></p>
+            </div>
+            <div>
+                <img src="img/proyecto2.jpg" alt="proyecto2" class="imagn">
+                <p></p>
+            </div>
+            <div>
+                <img src="img/proyecto3.jpg" alt="proyecto3" class="imagn">
+                 <p></p>
+            </div>
+        </div>
+        <p><a></a></p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <h2>PONTE EN CONTACTO CON NOSOTROS</h2>
+        <div class="footerDiv">
+            <div class="contcList">
+            <ul class="contcListMen">
+                <li><span class="material-symbols-outlined">location_on</span>  Dirección: Calle Manuel Villena, 15</li>
+                <li><span class="material-symbols-outlined">add_location_alt</span>  C.P. 13700. Tomelloso. Ciudad Real</li>
+                <li><span class="material-symbols-outlined">phone_in_talk</span>  Teléfono: 926 555 555</li>
+                <li><span class="material-symbols-outlined">mail</span>  Email: info@disersa.es</li>
+            </ul>
+            </div>
+            <div class="contactForm">
+                <form method="get">
+                    <input type="text"placeholder="nombre" id="nombre"><br>
+                    <input type="tel" placeholder="Teléfono"><br>
+                    <input type="email" placeholder="e-mail"><br>
+                    <textarea name="mensaje" id="mensaje" cols="10" rows="4"></textarea>
+                    <button class="button-30" role="button">Enviar</button>
+                    <p id="fallo"></p>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

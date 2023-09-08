@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#1645;Formulario&#1645;</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a69dc02b5c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header class="header">
+        <h1 class="h1">
+            Formulario
+        </h1>
+        <nav class="menu">
+            <ul>
+              <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+              <li><a href="noticias.html">Noticias</a></li>
+              <li><a href="multimedia.html">Multimedia</a></li>
+              <li><a href="formulario.html">Formulario</a></li>
+              <li><a href="https://miterritoriocamper.com/" target="_blank">TerritorioCamper</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <br><br><br>
+
+    <section class="header">
+        <form action="index.html" method="get" enctype="multipart/form-data" class="body">
+       
+            <!-- Datos para el registro (correo y contraseña) -->
+    
+         <fieldset>
+    
+            <legend>
+                Datos para el Registro
+            </legend>
+            <label for="correo">
+            *Correo electrónico: </label>
+            <input type="email" name="correo" id="correo" placeholder="Escribe tu correo electrónico">
+    
+            <br>
+            <br>
+    
+            <label for="password">
+                *Contraseña: </label>
+            <input type="password" name="password" id="password">
+    
+         </fieldset>
+    
+         <br>
+    
+         <!-- Datos personales (nombre, apellidos, teléfono, sexo, edad, fecha de naciemiento, fecha y hora de nacimiento de tu padre, en que mes te gustaria viajar, en que semana te gusta viajar, a que hora te puedo llamar, envía tu foto) -->
+    
+         <fieldset>
+    
+            <legend>
+                Datos Personales
+            </legend>
+            <label for="nombre">*Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+    
+            <br>
+            <br>
+    
+            <label for="apellidos">*Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Tus apellidos">
+    
+            <br>
+            <br>
+    
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Ejm. +34 999999999" pattern="[6-9]{1}[0-9]{8}" minlength="9" maxlength="9" >
+    
+            <br>
+    
+            <p>
+                <input type="radio" name="sexo" value="basico">Mujer
+                <input type="radio" name="sexo" value="basico" >Hombre
+            </p>    
+    
+            <label for="edad" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Edad</label>
+            <input type="number" name="edad" id="edad" placeholder="Edad" maxlength="100" max="100" min="0">
+    
+            <br>
+            <br>
+    
+            <label for="buscar">Buscar: </label>
+            <input type="search" name="buscar" id="buscar" placeholder="Ej. Portátil">
+    
+            <br>
+            <br>
+    
+            <label for="fechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+    
+            <br>
+            <br>
+    
+            <label for="fechaHora">Fecha y hora de nacimiento de tu padre</label>
+            <input type="datetime-local" name="fechaHora" id="fechaHora">
+    
+            
+            <br>
+            <br>
+    
+            <label for="mesViaje">¿En qué mes te gustaría viajar?</label>
+            <input type="month" name="mesViaje" id="mesViaje">
+    
+            <br>
+            <br>
+    
+            <label for="semanaViaje">¿En qué semana te gustaría viajar?</label>
+            <input type="week" name="semanaViaje" id="semanaViaje">
+            
+            <br>
+            <br>
+    
+            <label for="horaLlamada">¿A qué hora te puedo llamar?</label>
+            <input type="time" name="horaLlamada" id="horaLlamada">
+    
+            <br>
+            <br>
+    
+            <label for="fotopnj">Envía tu foto:(.jpg)</label>
+            <input type="file" name="fotopnj" id="fotopnj" accept=".jpg">
+    
+         </fieldset>
+    
+         <br>
+    
+         <!-- Sobre tus redes sociales (cual utilizas, tiempor aprox que las utilizas, tienes web o blog) -->
+    
+         <fieldset>
+            
+            <legend>
+               Sobre tus Redes Sociales
+            </legend>
+            <label for="redSocial">¿Cuál utilizas?</label>
+            <br>
+            <input type="checkbox" id="facebook" name="facebook" value="facebook">
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="twitter" name="twitter" value="twitter">
+            <label for="twitter">Twitter</label>
+            <input type="checkbox" id="linkeding" name="linkeding" value="linkeding">
+            <label for="linkeding">Linkeding</label>
+            <input type="checkbox" id="instagram" name="instagram" value="instagram">
+            <label for="instagram">Instagram</label>
+            <input type="checkbox" id="whatsapp" name="whatsapp" value="whatsapp">
+            <label for="whatsapp">WhatsApp</label>
+            <input type="checkbox" id="snapchat" name="snapchat" value="snapchat">
+            <label for="snapchat">Snapchat</label>
+            <input type="checkbox" id="pinterest" name="pinterest" value="pinterest">
+            <label for="pinterest">Pinterest</label>
+    
+            <br>
+            <br>
+    
+            <label for="tiempoUso">Tiempo aproximado que las utilizas:</label>   1 Hora
+            <input type="range" min="1" max="24" id="tiempoUso" name="tiempoUso" > 24 Horas
+    
+            <br>
+            <br>
+    
+            <label for="tuweb">¿Tienes página web o blog?</label>
+                <input type="url" name="tuweb"  id="tuweb" >
+    
+         </fieldset>
+    
+         <br>
+        
+         <!-- Fin de página con datos obligatorios y boton de aceptar -->
+    
+         <p>
+            Los datos señalados con * son obligatorios para el registro
+         </p>
+    
+         <p>
+            <input type="submit" value="Aceptar">
+            <input type="reset" value="Limpiar Formulario">
+         </p>
+        </form>
+    </section>
+
+    <br>
+
+    <footer class="footer">
+        Realizado por Sofía 
+     <nav class="menu">
+         <ul>
+           <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+           <li><a href="noticias.html">Noticias</a></li>
+           <li><a href="multimedia.html">Multimedia</a></li>
+           <li><a href="formulario.html">Formulario</a></li>
+           <li><a href="https://miterritoriocamper.com/"target="_blank">TerritorioCamper</a></li>
+         </ul>
+       </nav>
+     </div>
+ </footer>
+
+</body>
+</html>

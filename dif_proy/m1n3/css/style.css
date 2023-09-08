@@ -1,0 +1,137 @@
+/* PARA REPASAR */
+
+/* (*)se usa para crear una orden general*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.body{
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+	width: 80%;
+    margin: auto;
+    text-align: center;
+	font-variant: small-caps;
+    background-color: #4B4B4B;
+    color: #f4f4f4;
+}
+
+.h1{
+    font-variant: small-caps;
+    background-color: #4B4B4B;
+    color: #f4f4f4;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #4B4B4B;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+}
+
+.menu ul, .menu li {
+	margin: 0;
+	padding: 0;
+}
+.menu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.menu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.menu a {
+	background: #4b4b4b;
+	color: #FFFFFF;
+	display: block;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+.menu li:hover a {
+	background: #2b2b2b;
+}
+
+.bloque-sin-borde{
+    width: 75%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    margin: 15px;
+}
+
+.parrafo-borde-izquierdo{
+    border-left: 5px solid #4B4B4B;
+    padding-left: 10px;
+    margin-right: 25px;
+	text-align: left;
+}
+
+.parrafo-borde-izquierdo-flex {
+    border-left: 5px solid #4B4B4B;
+    border-right: 5px solid #4B4B4B;
+    padding-left: 25px;
+	padding-right: 10px;
+}
+
+.pht1{
+	width:250px; ;
+    height:250px ;
+}
+
+hr{
+	width: 80%;
+    margin: auto;
+    border: 5px double #4B4B4B;
+}
+
+.ex2 {
+	width: 80%;
+    margin: auto;
+    width: 300px;
+    padding: 55px 50px;
+    background-color: #4b4b4b5f;
+}
+
+table, th, td {
+	margin: auto;
+    border: double 3px #f4f4f4;
+    border-collapse: collapse;
+    padding: 10px;
+    }
+
+	h2,h4,h5{
+		color: #2b2b2b;
+		font-variant: small-caps;
+	}
+
+	.noti{
+		color: #4B4B4B;
+	}

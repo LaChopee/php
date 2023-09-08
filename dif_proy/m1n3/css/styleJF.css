@@ -1,0 +1,117 @@
+/*Los comentarios se hacen en un archivo de tipo CSS se hacen así*/
+
+
+* {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background-color: rgb(136, 230, 215);
+    color: rgb(255, 255, 255);
+    background-image: url("../img/pantera.jpg");
+    background-repeat: no-repeat;
+    background-position: center-top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.izquierda {
+    text-align: left;
+    color: brown;
+}
+
+.my-header {
+    color: violet;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.text-centrado {
+    text-align: center;
+}
+
+.bloque-centrado {
+    width: 75%;
+    /*Para centrar un bloque horizontalmente (div, header, footer, section)*/
+    margin: auto;
+    /*border tiene 3 propiedades: ancho, forma, color*/
+    border: 5px dashed rgb(133, 55, 197);
+    border-radius: 0 0 20px 20px;
+}
+
+.bloque-centrado-sin-borde {
+    width: 75%;
+    margin: auto;
+}
+
+.parrafo-borde-izquierdo {
+    border-left: 5px solid crimson;
+    padding-left: 25px;
+    margin-right: 150px;
+}
+
+.bloque-opaco {
+    background-color: #00ff00;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.boton {
+    width: 250px;
+    padding: 10px 45px;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.ancho-largo {
+    margin: 50px;
+    max-width: 250px;
+    height: 250px;
+    background-color: rgba(240, 255, 255, 0.281);
+    padding: 10px;
+    text-align: justify;
+}
+
+.flex {
+    display: flex;
+    margin: 15px;
+}
+
+.parrafo-borde-izquierdo-flex {
+    border-left: 5px solid crimson;
+    padding-left: 25px;
+}
+
+.parrafo-bordes {
+    border-left: 5px solid crimson;
+    border-right: 5px solid crimson;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.ex2 {
+    width: 300px;
+    padding: 55px 50px;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.texto {
+    text-align: justify;
+    text-decoration: double;
+}
+
+.texto-resaltado {
+    color: black;
+    text-decoration: underline overline line-through;
+}
+
+.estilo-enlaces {
+    text-decoration: none;
+    color: #D9EEE1;
+    background-color: black;
+}

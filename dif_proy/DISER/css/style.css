@@ -1,0 +1,253 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*--header--*/
+.fechaHora{
+    display: flex;
+    float: right;
+}
+
+.fechaHora p{
+    margin: 0 15px;
+    padding-top: 0 20px;
+    text-decoration: underline 3px dotted #9b9b9b;
+}
+
+.imgMenu{
+    width: 100px;
+    float: left;
+}
+
+.headerBaner{
+    width: 100%;
+    border: 5px solid #65BC59;
+}
+
+.menu{
+    padding: 35px 0 0 50px ;
+    display:inline-flex;
+    list-style: none;
+}
+
+.menu li{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #F7A800;
+    font-variant: small-caps;
+}
+/*--finHeader--*/
+
+/*--FOOTER--*/
+footer{
+    margin-top: 75px;
+}
+
+footer h2{
+    margin-bottom: 35px;
+}
+
+.footerDiv{
+    width: 100%;
+    padding: 45px;
+    background: rgb(101,188,89);
+    background: linear-gradient(90deg, rgba(101,188,89,1) 0%, rgba(184,186,4,1) 31%, rgba(247,168,0,1) 100%);
+    display: flex;
+}
+
+.contcList{
+    display: flex;
+}
+
+.contcListMen{
+    list-style: none;
+}
+
+.contcListMen li{
+    margin: 30px;
+}
+
+.contcForm{ 
+    margin-left: 20px;
+}
+
+.contcForm form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contcForm input, .contcForm textarea{
+    background-color: transparent;
+    display: block;
+    margin-bottom: 12px;
+    border: none;
+
+
+}
+/*--finFooter--*/
+
+hr{
+    border: 3px solid #65BC59;
+    width: 80%;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+/*--autoconsumo--*/
+.autocons, .servicios{
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.autocons p{
+    margin: auto;
+}
+/*--finAutoconsumo--*/
+
+/*--servicios--*/
+.serviciosA{
+    display: flex;
+}
+
+.serviciosA div{
+    width: 200px;
+    height: 200px;
+    margin: 150px;
+    float: left;
+}
+
+.servicios p{
+    font-style: italic;
+}
+/*--finServicios--*/
+
+/*--PROYECTOS--*/
+.proy{
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.proyDIV{
+    width: 450px;
+    height: 600x;
+    margin-bottom: 50px;
+    float: left;
+    display: flex;
+}
+
+.proyDIV div{
+    margin: 50px;
+}
+
+.proyDIV div img{
+    width: 300px;
+    opacity: 0.5;
+}
+/*--finPROYECTOS--*/
+
+/*--PagEfi--*/
+.textEfi{
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 80%;
+}
+
+.dividido{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.dividido div{
+    margin: 0 20px;
+    width: 50%;
+}
+.dividido img{
+    margin: 0 20px;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+/*--finPagEfi--*/
+
+/*--PagContacto--*/
+.contacto{
+    width: 80%;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.contacto h3{
+    font-variant: small-caps;
+}
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.formContacto{
+    width: 40%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+/*--FinPagContacto*/

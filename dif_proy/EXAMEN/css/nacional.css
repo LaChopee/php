@@ -1,0 +1,14 @@
+.imgNacional{
+    display: none;
+}
+
+.texto{
+    width: 70%;
+    margin: 30px auto;
+}
+
+.imgNacional{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}

@@ -1,0 +1,159 @@
+*/*
+display:none esconde al elementeo y deja libre el espacio que ocupa, es decir, si hay un elemento arriba, abajo, o a un lado, este ocupa su lugar. display:hidden solo esconde el elemento pero deja su espacio tal y como esta
+*/
+
+*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #2b2b2b;
+}
+    
+body{
+    width: 80%;
+    margin: auto;
+    background-color: #f5f5f5;
+}
+    
+#formTarjetaCredito,#formPayPal,#formBizum {
+        display: none;
+}
+
+form {
+    display: block;
+    margin-top: 5%;
+}
+
+input {
+    padding: 5px 15px;
+}
+
+.tit{
+    font-variant: small-caps;
+    text-align: center;
+}
+
+/*menu*/
+.men3{
+    list-style: none;
+    background-color: #4b4b4b;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    overflow: hidden;
+    font-variant: small-caps;
+}
+
+.men3 li a{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+}
+
+.men3 li{
+    float: left;
+    display: block;
+}
+
+.men3 li a:hover{
+    background-color: #2b2b2b;
+}
+
+.active{
+    background-color: rgb(105, 45, 45);
+}
+
+.men3 li a.active{
+    background-color: rgb(105, 45, 45);
+    color: #f2f2f2;
+}
+
+
+/* BOTON */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.ant{
+    margin: 50px auto;
+    border: 2px solid #4b4b4b;
+    padding: 35px;
+}
+
+.vali{
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.leyend{
+    font-variant: small-caps;
+}
+
+.fild{
+    padding: 20px;
+    border:  2px solid #4b4b4b;
+}
+
+.fild input{
+    margin: 5px;
+}
+
+@media(width>=1280px){
+    #form{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media (width<767px){
+    #form{
+        width: 90%;
+        margin: auto;
+    }
+
+    .listaFP{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,71 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #2b2b2b;
+ }
+ 
+ body{
+     width: 80%;
+     margin: auto;
+     background-color: #f5f5f5;
+ }
+ 
+ .tit, h1{
+     font-variant: small-caps;
+     text-align: center;
+ }
+ 
+ /*menu*/
+ .men3{
+     list-style: none;
+     background-color: #4b4b4b;
+     margin: 0;
+     padding: 0;
+     position: sticky;
+     overflow: hidden;
+     font-variant: small-caps;
+ }
+ 
+ .men3 li a{
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px ;
+     text-decoration: none;
+ }
+ 
+ .men3 li{
+     float: left;
+     display: block;
+ }
+ 
+ .men3 li a:hover{
+     background-color: #2b2b2b;
+ }
+ 
+ .active{
+     background-color: rgb(105, 45, 45);
+ }
+ 
+ .men3 li a.active{
+     background-color: rgb(105, 45, 45);
+     color: #f2f2f2;
+ }
+ 
+ .divcent{
+     width: 80%;
+     background-color: #4b4b4b;
+     padding: 14px 0;
+     margin: auto;
+ }
+ 
+ .divcent ul{
+     margin: auto;
+     list-style: none;
+ }
+
+ .antonia{
+    margin: 100px;
+    text-align: center;
+ }
+
+ 
